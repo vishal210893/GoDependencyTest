@@ -2,6 +2,7 @@ package puppy
 
 import (
 	"fmt"
+	"strings"
 )
 
 func Bark() string {
@@ -22,4 +23,8 @@ func From12() {
 
 func From13() {
 	fmt.Println("I'm from version 1.3.0")
+}
+
+func BigBarks() string {
+	return strings.ToUpper("Woof! Woof! Woof!")
 }
